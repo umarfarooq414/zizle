@@ -1,0 +1,95 @@
+.fromGroup {
+  margin-bottom: 20px;
+}
+
+.fromGroup label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.fromGroup input[type="text"],
+.fromGroup input[type="text"]:focus {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  height: 50px;
+  padding: 10px 10px;
+  border: 1px solid #c7c7c7 !important;
+  outline: none;
+  border-radius: 10px;
+}
+
+.fromGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.fromGroup button:hover {
+  opacity: 0.7;
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toggle_switch {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 16px;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+  cursor: pointer;
+}
+
+.toggle_switch:before,
+.toggle_switch:after {
+  content: "";
+}
+
+.toggle_switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+
+.toggle:hover .toggle_switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.toggle_checkbox:checked+.toggle_switch {
+  background: #56c080;
+}
+
+.toggle_checkbox:checked+.toggle_switch:before {
+  left: 30px;
+}
+
+.toggle_checkbox {
+  position: absolute;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.toggle_label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}

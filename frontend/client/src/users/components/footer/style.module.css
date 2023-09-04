@@ -1,0 +1,51 @@
+.clear {
+  clear: both;
+}
+.footerMain {
+  padding: 20px 20px;
+  background-color: #4b5563;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 999;
+  margin-top: 20px;
+}
+.footerInner {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  position: relative;
+}
+.copyrightLeft {
+  float: left;
+  width: 50%;
+}
+.footerMenu {
+  float: left;
+  width: 50%;
+}
+.footerMenu ul {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.footerMenu ul li {
+  display: inline-block;
+  margin: 0px 0px 0px 10px;
+}
+.footerMenu ul li a {
+  font-size: 14px;
+  color: #f7f7f7;
+}
+.footerMenu ul li a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.copyrightLeft p {
+  font-size: 14px;
+  margin: 0;
+  color: #f7f7f7;
+}
+.copyrightLeft p span {
+  filter: invert(8%) sepia(7%) saturate(935%) hue-rotate(190deg) brightness(100%) contrast(91%);
+}

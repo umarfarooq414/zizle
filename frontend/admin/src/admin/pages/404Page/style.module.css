@@ -1,0 +1,9 @@
+.createFakeUser {
+  margin-top: 30px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 30px;
+  box-shadow: 0px 0px 7px #ddd;
+  margin-top: 200px;
+}

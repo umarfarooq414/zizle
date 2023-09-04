@@ -1,0 +1,39 @@
+.middleButton {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.middleButton button {
+  background-color: #ff762b;
+  /* display: inline-block; */
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 220px;
+  margin: 0% auto 0;
+  appearance: none !important;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.middleButton button:hover {
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  width: 220px;
+  background: linear-gradient(90deg,
+      rgba(252, 146, 65, 1) 0%,
+      #fa5f36 50%,
+      #fb783c 75%,
+      rgba(249, 44, 44, 1) 100%)
+}
+
+@media screen and (max-width: 768px) {
+  .middleButton button {
+    position: relative;
+  }
+}

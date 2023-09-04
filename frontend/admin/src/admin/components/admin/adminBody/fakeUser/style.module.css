@@ -1,0 +1,324 @@
+.closeBtnModal {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.imagePreviewCloseBtnModal {
+  position: absolute !important;
+  right: 0px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.imagePreviewCloseBtnModal img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+  margin: 2px 0px 0px 33px;
+}
+
+.imagePreviewCloseBtnModal img:hover {
+  border-radius: 5px;
+}
+
+.closeBtnModal:hover {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+}
+
+.closeBtnModal img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+}
+.closeBtnModal img:hover {
+  border-radius: 5px;
+}
+
+.allFakeUser tr th {
+  font-weight: 500;
+  width: 10%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.allFakeUser tr td {
+  width: 10%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.allFakeUser tr td button {
+  display: inline-block;
+  padding: 0;
+  margin: 0 7%;
+  width: auto;
+  min-width: auto;
+}
+
+.allFakeUser tr td img {
+  width: 75px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.allFakeUser tr td img:hover {
+  transform: scale(1.01);
+}
+
+.createFakeUser form {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  height: 600px;
+  overflow: auto;
+  padding: 24px;
+}
+
+.avatar {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.avatar img {
+  width: 140px;
+  height: 160px;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.multipleUploadButton,
+.multipleUploadButton:hover {
+  /* margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background-color: #ff7c6d;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: none; */
+
+  text-align: center;
+  margin: 30px 0 30px;
+  width: 150px;
+  display: block;
+  position: relative;
+  top: 5px;
+  padding: 14px 20px;
+  background-color: #fd612e;
+  color: #fff;
+  border-radius: 30px;
+  clear: both;
+}
+
+.multiProfilenone {
+  display: none;
+}
+
+.multiProfilenone+.multipleUploadButton {
+  margin: 10px 0 20px;
+  border: none;
+}
+
+.multiImages {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+
+.multiImages button {
+  position: absolute;
+  top: -10px;
+  background-color: #fd602d;
+  color: #fff;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  z-index: 9;
+  right: 0px;
+  font-weight: bold;
+}
+
+.fromGroup label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.fromGroup textarea {
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  padding: 10px 10px;
+  resize: none;
+  overflow: auto;
+}
+
+.fromGroupHalf {
+  position: relative;
+  float: left;
+  width: 48%;
+  margin: 0px 1% 20px;
+}
+
+.fromGroupFull {
+  margin: 0px 1% 20px;
+}
+
+.fromGroupHalf input[type='text'],
+.fromGroupHalf input[type='email'],
+.fromGroupHalf input[type='date'],
+.fromGroupHalf input[type='text']:focus,
+.fromGroupHalf input[type='email']:focus,
+.fromGroupHalf input[type='date']:focus,
+.fromGroupHalf select,
+.fromGroupHalf select:focus {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+  scroll-behavior: smooth;
+}
+
+.fromGroup button {
+  /* text-align: center;
+  margin: 30px auto 30px;
+  width: 150px;
+  display: block;
+  position: relative;
+  top: 13px;
+  padding: 14px 20px;
+  background-color: #fd612e;
+  color: #fff;
+  border-radius: 30px; */
+}
+
+.fromGroupHalf input+span {
+  position: absolute;
+  right: 4px;
+  background: green;
+  bottom: 12px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4), 0px 0px 1px #008001;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* *************Mobile View*************** */
+@media screen and (max-width: 768px) {
+  .fromGroup textarea {
+    width: 100%;
+  }
+
+  .mobileView {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 1500px;
+  }
+
+  .table td {
+    word-break: break-all;
+  }
+
+  .allFakeUser tr td button {
+    display: block;
+    margin: 5px 0px;
+    width: 35px;
+    text-align: center;
+    margin: 12px auto;
+  }
+
+  .fromGroupHalf {
+    width: 100%;
+    margin: 20px 0px;
+    float: none;
+  }
+
+  .createFakeUser * {
+    box-sizing: border-box;
+  }
+
+  .createFakeUser form {
+    overflow: auto;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /* Desktop styles */
+  table {
+    display: table;
+  }
+
+  th {
+    display: table-cell;
+  }
+}
+
+/* @media (max-width: 767px) {
+
+  table {
+    width: 1500px;
+  }
+
+  table,
+  tbody {
+    display: flex;
+    flex-direction: row;
+  }
+
+  th,
+  td {
+    display: block;
+    width: 100% !important;
+    height: 65px;
+    word-break: break-all;
+  }
+} */
+
+/* *************Mobile View*************** */

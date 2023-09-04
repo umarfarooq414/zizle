@@ -1,0 +1,506 @@
+/* .userFrav {
+  float: left;
+  width: 100%;
+}
+
+.userFavrInner {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.userFavrInner img {
+  max-width: 100px;
+  width: 100%;
+}
+
+.userFavrInner p {
+  margin: 0;
+  font-size: 15px;
+  color: #999;
+}
+
+.ProfileVisitmain {
+  float: left;
+  width: 100%;
+}
+
+.ProfileVisitInner {
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+  width: 23%;
+  float: left;
+  margin: 15px 1%;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.homeUserNewDetails {
+  position: absolute;
+  padding: 0px 20px;
+  top: 75%;
+}
+
+.ProfileVisitInner img {
+  object-fit: cover;
+  object-position: center;
+  text-align: center;
+  display: block;
+  max-width: 100%;
+  height: 275px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.ProfileVisitInner h3 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0px 0px 1rem;
+  font-weight: 500;
+}
+
+.ProfileVisitInner p {
+  font-size: 14px;
+  color: #fff;
+  margin: 0px 0px 1rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.ProfileVisitInner .ProfileLock {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  padding: 19px;
+}
+
+.ProfileVisitMessage {
+  text-align: center;
+}
+
+.ProfileVisitMessage img {
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 100px;
+}
+
+.unlockbtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  position: relative;
+  background-color: #b945453a;
+  color: white;
+  border-radius: 5px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.unlockbtn:hover {
+  background-color: #d116169c;
+}
+
+.unlockbtn:hover .line {
+  background-color: #111;
+}
+
+.popup {
+  background-color: #d3414194;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 786px) {
+  .ProfileVisitInner {
+    width: 29%;
+  }
+}
+
+@media (max-width: 485px) {
+  .ProfileVisitInner {
+    width: 46%;
+  }
+} */
+
+@media (max-width: 768px) {
+  /* .gridItem {
+    display: none;
+  } */
+
+  .gridItem1 {
+    margin-bottom: 0px;
+  }
+
+  .filterForm {
+    width: 100%;
+  }
+
+  .filterForm {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .homeUserNewInner {
+    width: 48%;
+  }
+}
+
+@media (max-width: 485px) {
+  .homeUserNewInner {
+    width: 98%;
+  }
+}
+
+.userLetfMenu {
+  display: none;
+}
+
+/* .filterForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+} */
+
+.homeUserNewMain {
+  position: relative;
+}
+
+.homeUserNewform {
+  margin-bottom: 10px;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.loadMoreBtn {
+  background-color: #4b5563;
+  color: #fff;
+  border: none;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto 50px;
+  display: block;
+  position: relative;
+  top: 20px;
+  clear: both;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  border-radius: 9999px;
+}
+
+.homeUserNewInner {
+  position: relative;
+  width: 23%;
+  float: left;
+  margin: 10px 1%;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.homeUserNewInner2 {
+  border-radius: 20px !important;
+}
+
+.homeUserNewOnline {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+
+.homeUserNewOnlineIcon {
+  background-color: #3ec243;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.homeUserNewOfflineIcon {
+  background-color: hsl(0, 68%, 61%);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.userImage {
+  position: relative;
+}
+
+.userImage:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.userImage img {
+  max-width: 100%;
+  height: 275px;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* .homeUserNewVerified {
+  background-color: #4a96f3;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 2;
+}
+
+.homeUserNewVerified img {
+  padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+ */
+
+.homeUserNewVerified {
+  /* background-color: #4a96f3; */
+  /* border-radius: 50px; */
+  /* width: 20px;
+  height: 20px; */
+  font-size: 14px;
+  color: #fff;
+  top: 20px;
+  right: 10px;
+  z-index: 2;
+  float: left;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -3px;
+}
+
+.homeUserNewVerified img {
+  /* padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto; */
+  width: 20px !important;
+}
+
+.homeUserNewDetails {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 8px 0px;
+  box-shadow: 0px -5px 48px rgba(0, 0, 0, 0.3);
+}
+
+.homeUserNewDetails h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.homeUserNewDetails span,
+p {
+  color: #fff;
+}
+
+.row1 .rowa {
+  float: left;
+  width: 31%;
+  margin: 10px 1%;
+}
+
+.row1 .rowa .MuiInputBase-root.MuiOutlinedInput-root {
+  border-radius: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.filterForm {
+  position: relative;
+  /* box-shadow: 0px 0px 10px #ddd; */
+  padding: 10px 20px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.filterForm input[type='submit'] {
+  position: absolute;
+  right: 40px;
+  background-color: #3f51b5;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .genderFilterButtonWrapper {
+    display: flex;
+  }
+
+  .advanceSearchButton {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .advanceSearchButtonText {
+    text-decoration: underline;
+    color: #ababab;
+  }
+
+  .homeUserNewform {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    text-align: center;
+  }
+
+  .gridItem {
+    margin-bottom: 10px;
+  }
+
+  .gridItem .textfield {
+    border-radius: 10px;
+  }
+
+  .homeUserNewMain1 {
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .homeUserNewInner {
+    width: 48%;
+  }
+
+  /* .userImage {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  } */
+
+  .homeUserNewDetails {
+    text-align: center;
+  }
+
+  .homeUserNewDetails h3 {
+    font-size: 1.2rem;
+  }
+
+  .homeUserNewDetails span {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .homeUserNewform {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+  }
+
+  .gridItem {
+    margin-bottom: 0;
+  }
+
+  .userImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .loadmoreBtn {
+    grid-column: 2 / 3;
+    justify-self: center;
+  }
+
+  /* .filterForm {
+    padding: 0px 20px;
+  } */
+}
+
+@media (max-width: 485px) {
+  .homeUserNewInner {
+    width: 93%;
+  }
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 50px !important;
+}

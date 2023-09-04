@@ -1,0 +1,41 @@
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  font-size: 14px;
+  color: #000;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formGroup input[type='text'],
+.formGroup input[type='text']:focus {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  height: 40px;
+  padding: 15px 15px;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: #ccc;
+}
+
+.formGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+}
+
+.formGroup button:hover {
+  opacity: 0.9;
+  background-color: #fd612e;
+}
+
+.formGroup p {
+  color: red;
+}

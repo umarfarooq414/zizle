@@ -1,0 +1,16 @@
+.headerLogo img {
+  max-width: 175px;
+  vertical-align: middle;
+  margin: 3px 0 0;
+}
+
+@media screen and (max-width: 485px) {
+  .headerLogo img {
+    max-width: 135px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .headerLogo img {
+    max-width: 125px;
+  }
+}

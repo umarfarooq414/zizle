@@ -1,0 +1,64 @@
+.moderatorContainerBody {
+  max-width: 96%;
+  margin: 0 auto;
+}
+.dateSec {
+  position: relative;
+  margin: 30px 0px 30px;
+  padding: 20px 20px;
+  background-color: #f3f5f6;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+.dateSec label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #777;
+  font-weight: 600;
+}
+.dateSec input[type='date'] {
+  width: 50%;
+  height: 40px;
+  padding: 0px 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+.dateSec button {
+  position: absolute;
+  right: 0;
+  width: 60px;
+  background-color: #fff;
+  border: none;
+  height: 100%;
+  top: 0;
+}
+.moderatorTeamChecker,
+.moderatorTimeManagent {
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  margin: 20px 0px 0px;
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #f3f5f6;
+}
+.moderatorTeamChecker table tr th,
+.moderatorTimeManagent tr th {
+  border: 1px solid #ddd;
+  padding: 20px 20px;
+  text-align: left;
+  background-color: #fff;
+}
+.moderatorTeamChecker table tr td,
+.moderatorTimeManagent tr td {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.tableBottomCount {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 20px;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  margin: 0px 0px 30px;
+}

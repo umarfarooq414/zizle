@@ -1,0 +1,148 @@
+.ProfileVisitInner {
+  overflow: hidden;
+  position: relative;
+  width: 23%;
+  float: left;
+  margin: 15px 1%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  align-content: left;
+  text-align: left;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+.userImage {
+  position: relative;
+}
+.userImage:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.userImage img {
+  max-width: 270px;
+  height: 275px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  margin: auto;
+  display: block;
+}
+.ProfileVisitInner p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.clear {
+  clear: both;
+}
+.ProfileVisitInner .ProfileLock {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  padding: 19px;
+}
+.homeUserNewOnline {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+.homeUserNewOnlineIcon {
+  background-color: #3ec243;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+.homeUserNewVerified {
+  background-color: #4a96f3;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 2;
+}
+.homeUserNewVerified img {
+  padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.loadmoreBtn {
+  background-color: #4b5563;
+  color: #fff;
+  border: none;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto 50px;
+  display: block;
+  position: relative;
+  top: 20px;
+  clear: both;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  border-radius: 9999px;
+}
+.homeUserNewDetails {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 8px 0px;
+  box-shadow: 0px -5px 48px rgba(0, 0, 0, 0.3);
+}
+
+.homeUserNewDetails h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: left !important;
+  padding-left: 15px;
+  margin-top: 5px;
+  word-break: break-all;
+}
+
+.homeUserNewDetails span {
+  color: #fff;
+}
+
+.homeUserNewOfflineIcon {
+  background-color: hsl(0, 68%, 61%);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+@media (max-width: 786px) {
+  .ProfileVisitInner {
+    width: 46%;
+  }
+}
+@media (max-width: 485px) {
+  .ProfileVisitInner {
+    width: 98%;
+  }
+}

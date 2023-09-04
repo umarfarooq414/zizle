@@ -1,0 +1,27 @@
+import { type ICustomerProfileData } from './../../../libs/types/src/db/entities/user';
+import { CustomerProfileData } from './../../modules/user/entities/customer.profiledata.entity';
+import { define } from 'typeorm-seeding';
+import { randUserName, randFirstName, randLastName, randEmail } from '@ngneat/falso';
+import * as bcrypt from 'bcryptjs';
+import { User } from '../../modules/user/entities/user.entity';
+import { UserSelfGenderEnum, UserInterestedGenderEnum } from '../../../libs/types/src';
+import { getConnection } from 'typeorm';
+define(User, (): User => {
+  const profileRepo = getConnection().getRepository(CustomerProfileData);
+  const hashedPassword: any = bcrypt.hash('password', 10);
+  const selfGenderArray = [UserSelfGenderEnum.MALE, UserSelfGenderEnum.FEMALE];
+  const selfGender = selfGenderArray[Math.floor(Math.random() * selfGenderArray.length)];
+  const interestedGenderArray = [UserInterestedGenderEnum.MALE, UserInterestedGenderEnum.FEMALE];
+  const interestedGender = interestedGenderArray[Math.floor(Math.random() * interestedGenderArray.length)];
+  const user = new User();
+  user.userName = randUserName();
+  user.firstName = randFirstName();
+  user.lastName = randLastName();
+  user.email = randEmail();
+  user.password = hashedPassword;
+  user.selfGender = selfGender;
+  user.interestedGender = interestedGender;
+  const profile = profileRepo.save({ user });
+  user.profile = profile as any;
+  return user;
+});

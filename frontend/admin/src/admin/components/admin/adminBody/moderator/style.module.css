@@ -1,0 +1,140 @@
+.allFakeUser tr th {
+  font-weight: 500;
+  width: 10%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.allFakeUser tr td {
+  width: 10%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.allFakeUser tr td button {
+  display: inline-block;
+  padding: 0;
+  margin: 0 7%;
+  width: auto;
+  min-width: auto;
+}
+
+.allFakeUser tr td img {
+  width: 75px;
+  margin: auto;
+  display: block;
+}
+
+.createFakeUser form {
+  margin-top: 30px;
+}
+
+.fromGroup label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.fromGroupHalf {
+  float: left;
+  width: 48%;
+  margin: 0px 1% 20px;
+}
+
+.fromGroupFull {
+  margin: 0px 1% 20px;
+}
+
+.fromGroupFull button:hover {
+  opacity: 0.8;
+}
+
+.fromGroupFull input[type='text'],
+.fromGroupFull input[type='email'],
+.fromGroupFull input[type='password'],
+.fromGroupFull input[type='text']:focus,
+.fromGroupFull input[type='email']:focus,
+.fromGroupFull input[type='password']:focus {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+  scroll-behavior: smooth;
+}
+
+.fromGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+  display: block;
+  clear: both;
+}
+
+.closeBtnModal {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.closeBtnModal:hover {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+}
+
+.closeBtnModal img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+}
+.closeBtnModal img:hover {
+  border-radius: 5px;
+}
+
+/* *************Mobile View*************** */
+@media screen and (max-width: 768px) {
+  .mobileView {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 1500px;
+  }
+
+  .table td {
+    word-break: break-all;
+  }
+
+  .fromGroup button {
+    margin: 31px auto 0;
+    width: 85px;
+  }
+}
+
+/* *************Mobile View*************** */

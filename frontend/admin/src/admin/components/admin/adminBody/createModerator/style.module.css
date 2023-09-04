@@ -1,0 +1,51 @@
+.createFakeUser form {
+  margin-top: 30px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 30px;
+  box-shadow: 0px 0px 7px #ddd;
+}
+
+.fromGroup label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.fromGroupFull {
+  margin: 0px 1% 20px;
+}
+
+.fromGroupFull input[type='text'],
+.fromGroupFull input[type='email'],
+.fromGroupFull input[type='password'],
+.fromGroupFull input[type='text']:focus,
+.fromGroupFull input[type='email']:focus,
+.fromGroupFull input[type='password']:focus {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+.fromGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+  width: 84px;
+  margin: 30px auto 0;
+  display: block;
+}
+.fromGroup button:hover {
+  opacity: 0.9;
+}

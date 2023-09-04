@@ -1,0 +1,170 @@
+ul {
+  /* padding-left: 20px; */
+  margin: 0;
+}
+
+.mobileVersion img {
+  width: 18px;
+}
+
+.mobileHidden {
+  display: block;
+}
+
+.mobileVersion {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobileHidden {
+    display: none;
+    /* Show the mobileVersion div on smaller screens */
+  }
+
+  .mobileVersion {
+    display: block;
+    position: fixed;
+    top: 28px;
+    left: 20px;
+    left: 20px;
+  }
+}
+
+.userprofile {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.userinner {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(150, 144, 144);
+}
+
+.userinner p,
+.userinner img,
+.userinner span {
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.userinner span {
+  padding-left: 8px;
+  vertical-align: text-top;
+  transform: rotate(90deg);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.userinner img {
+  max-width: 100%;
+  width: 55px;
+  height: 55px;
+  text-align: left;
+  object-fit: contain;
+  vertical-align: middle;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.userinner p {
+  margin-bottom: 0;
+  font-weight: 600;
+  vertical-align: middle;
+  margin-right: 8px;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.dropdownNav {
+  /* display: none; */
+  position: absolute;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 2px #555777;
+  width: 100px;
+  top: 100%;
+  z-index: 9999;
+}
+
+.dropdownNav ul li {
+  display: block;
+  text-align: left;
+}
+
+.dropdownNav ul li a,
+.dropdownNav ul li button {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+
+.moreImage {
+  float: right;
+  height: 20px !important;
+  width: 20px !important;
+  margin-top: 18px;
+}
+
+.listItem {
+  display: flex;
+  width: full;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.listItem span {
+  font-weight: 600;
+  color: darkslategray;
+  padding: 2px 5px;
+  flex: 1;
+}
+
+
+.listItem:hover {
+  background: #d8d8d8;
+  border-radius: 5px;
+}
+
+
+.listItem a:hover {
+  background: none;
+  border-radius: 5px;
+}
+
+.tabIcon {
+  padding: 5px 0px;
+  z-index: 0;
+}
+
+.subTabItems {
+  display: flex;
+  width: full;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.subTabItems span {
+  font-weight: 600;
+  color: darkslategray;
+  padding: 2px 15px;
+  flex: 1;
+}
+
+
+.subTabItems:hover {
+  background: #d8d8d8;
+  border-radius: 5px;
+}
+
+
+.subTabItems a:hover {
+  background: none;
+  border-radius: 5px;
+}

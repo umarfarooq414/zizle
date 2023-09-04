@@ -1,0 +1,15 @@
+.pageForm {
+  margin-top: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.menuanme {
+  display: none;
+}

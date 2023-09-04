@@ -1,0 +1,94 @@
+.clear {
+  clear: both;
+}
+.mainModel {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid #ededed;
+  padding: 10px 10px;
+}
+.nameMod,
+.roleMod,
+.nameModStatus,
+.nameModEmail,
+.selectionMod,
+.nameModStatuss {
+  display: inline-block;
+  margin: 1%;
+  box-sizing: border-box;
+  width: 18%;
+  word-break: break-word;
+  word-wrap: normal;
+}
+.roleMod {
+  text-align: center;
+}
+.selectionMod {
+  text-align: right;
+}
+.formBtn button {
+  background-color: #fe5633;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+.roleUser span {
+  font-size: 13px;
+  background-color: green;
+  color: #fff;
+  padding: 2px 9px;
+  border-radius: 5px;
+  line-height: normal;
+}
+.roleAdmin span {
+  font-size: 13px;
+  background-color: #fe8d0e;
+  color: #fff;
+  padding: 2px 9px;
+  border-radius: 5px;
+  line-height: normal;
+}
+.nameModStatus {
+  font-size: 13px;
+  background-color: #fe8d0e;
+  color: #fff;
+  padding: 2px 9px;
+  border-radius: 5px;
+  line-height: normal;
+  display: inline-block;
+}
+.mainDiv1,
+.mainDiv2 {
+  float: left;
+  width: 50%;
+}
+.mainDiv2 {
+  text-align: right;
+}
+
+.mainModelContainer {
+  height: 600px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 99999;
+}
+.mainModelSticky {
+  -webkit-position: sticky;
+  -moz-position: sticky;
+  -o-position: sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 9999;
+}
+.formBoxbtns ul {
+  text-align: center;
+}
+.formBoxbtns ul li {
+  display: inline-block;
+}

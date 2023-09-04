@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0px 0px 0px 20px;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+p,
+li,
+a {
+  font-size: 16px;
+  line-height: 24px;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+table tr td {
+  padding: 10px;
+  color: #000;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+.baslik {
+  border-style: ridge;
+  line-height: 25px;
+  padding: 0 20px;
+}

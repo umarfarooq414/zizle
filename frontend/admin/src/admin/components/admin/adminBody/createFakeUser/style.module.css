@@ -1,0 +1,374 @@
+.createFakeUser form {
+  margin-top: 30px;
+}
+
+.createFakeUser form .fromGroupHalf:nth-child(1) {
+  width: 98%;
+}
+
+.fromGroup label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.fromGroupHalf {
+  float: left;
+  width: 48%;
+  margin: 0px 1% 20px;
+}
+
+.fromGroupHalf input[type='text'],
+.fromGroupHalf input[type='email'],
+.fromGroupHalf input[type='date'],
+.fromGroupHalf input[type='text']:focus,
+.fomGroupHalf input[type='email']:focus,
+.fromGroupHalf input[type='date']:focus,
+.fromGroupHalf select,
+.fromGroupHalf select:focus {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+  cursor: pointer;
+}
+
+
+.fromGroup textarea {
+  display: inline-block;
+  clear: both;
+  width: 100%;
+  outline: 1px solid #ccc;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  resize: none;
+}
+
+.fromGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+  clear: both;
+  display: block;
+}
+
+.fromGroup button:hover {
+  opacity: 0.9;
+  background-color: #fd7042 !important;
+}
+
+.avatar {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.avatar img {
+  width: 140px;
+  height: 160px;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.multiImages {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.multiImages img {
+  width: 90px;
+  height: 160px;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.formGroup label {
+  display: inline-block;
+  clear: both;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.formGroup input[type='text'],
+.formGroup input[type='text']:focus,
+.formGroup input[type='password'],
+.formGroup input[type='password']:focus,
+.formGroup input[type='email'],
+.formGroup input[type='email']:focus,
+.formGroup input[type='tel'],
+.formGroup input[type='tel']:focus,
+.formGroup input[type='date'],
+.formGroup input[type='date']:focus,
+.formGroup select,
+.formGroup select {
+  clear: both;
+  width: 100%;
+  outline: 1px solid #ccc;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  max-width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.formGroup textarea {
+  display: inline-block;
+  clear: both;
+  width: 100%;
+  outline: 1px solid #ccc;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.fromGroupHalf input+span {
+  position: absolute;
+  right: 4px;
+  background: green;
+  bottom: 12px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4), 0px 0px 1px #008001;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.formGroup h4 {
+  margin: 20px 0 10px;
+}
+
+.fromGroupFull {
+  float: none;
+  width: 96%;
+  margin: 0 2%;
+  margin-bottom: 20px;
+  clear: both;
+  display: block;
+}
+
+.multipleUploadButton {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+  width: auto !important;
+  border-radius: 10px !important;
+}
+
+.multipleUploadButton:hover {
+  opacity: 0.9;
+}
+
+.multiProfilenone {
+  display: none;
+}
+
+.multiProfilenone+.multipleUploadButton {
+  margin: 10px 0 20px;
+  border: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ***************************************** */
+.closeBtnModal {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.closeBtnModal:hover {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+}
+
+.closeBtnModal img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+.modelBoxReg {
+  background-color: white;
+  width: 30%;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.modelBoxReg h2 {
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.modelBoxReg p {
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.modelBoxReg p a {
+  color: #fa392f;
+  text-decoration: underline;
+}
+
+.homeMainRegr ul {
+  margin: 0px 0px 0px 52px;
+  padding: 0;
+}
+
+.homeMainRegr ul li {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3px 16px;
+  border-radius: 10px;
+  margin: 15px 5px;
+}
+
+.homeMainRegr ul li a {
+  font-size: 13px;
+  color: #000;
+}
+
+.homeMainRegr ul li svg {
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.wrapwidth {
+  width: 98%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 3;
+  position: relative;
+}
+
+/* ***************************************** */
+
+.formLogin .formGroup {
+  width: 46%;
+  margin-right: 4%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  float: left;
+  display: inline-block;
+}
+
+.formLogin .formGroup select,
+.formLogin .formGroup input[type='text'] {
+  margin-right: 10px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.formLogin .formGroup:nth-child(4):before {
+  content: '';
+  border-top: 1px solid #cbcbcb;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.formLogin .formGroup:nth-child(4) {
+  clear: both;
+  text-align: right;
+  float: right;
+  display: block;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.formLogin .formGroup:nth-child(4) div {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.crossButton {
+  position: absolute !important;
+  top: -25px !important;
+  right: 5px;
+  background-color: #da2877;
+  color: white;
+  border: none;
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .fromGroupHalf {
+    float: none;
+    width: 100%;
+    margin: 0px 0% 20px;
+  }
+  .fromGroupHalf input + span {
+    bottom: auto;
+    top: 100%;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .fromGroupHalf input+span {
+    right: 10px;
+  }
+}

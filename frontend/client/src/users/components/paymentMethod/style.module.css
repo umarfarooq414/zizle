@@ -1,0 +1,335 @@
+.clear {
+  clear: both;
+}
+
+.paymentMethodUi {
+  width: 100%;
+  float: left;
+}
+
+.paymentMethodList h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 100;
+}
+
+.paymentMethodList h3 span {
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+  display: block;
+}
+
+.cardDetails {
+  width: 48%;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+.cardDetailsImg {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  width: auto;
+  float: right;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.cardDetails img {
+  height: 30px;
+  margin: 0px 5px;
+  padding: 10px 0;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.paymentMethodList {
+  float: left;
+  width: 63%;
+  margin-right: 2%;
+  background-color: transparent;
+}
+
+.couponPackage {
+  float: left;
+  width: 33%;
+  margin-left: 2%;
+}
+
+.paymentMethodList ul {
+  margin: 0;
+}
+
+.paymentMethodList ul li {
+  /* display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+  padding: 10px 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.paymentMethodList ul li:hover {
+  background: rgb(88, 28, 135);
+  background: linear-gradient(313deg, rgba(88, 28, 135, 1) 0%, rgba(79, 69, 184, 1) 100%);
+}
+
+.paymentMethodList ul li .cardDetails input {
+  float: left;
+  margin-right: 15px;
+  margin-top: 15px;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.paymentMethodList ul li .cardDetails label {
+  float: left;
+  margin: 5px 0px 0px 0px;
+  display: block;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.paymentMethodList ul li .cardDetails p {
+  margin-left: 35px;
+  display: block;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 16px;
+  /* color: #000; */
+  font-weight: 200;
+}
+
+.paymentMethodList ul li:hover label,
+.paymentMethodList ul li:hover p {
+  color: #fff;
+}
+
+.couponForm h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.couponForm form {
+  position: relative;
+  margin-top: 10px;
+}
+
+.couponForm form input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  font-size: 16px;
+}
+
+.couponForm form button {
+  position: absolute;
+  top: -6px;
+  right: 0;
+  background: none;
+  border: none;
+  background-color: #fb753c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.couponForm form button svg,
+.couponForm form button svg path {
+  fill: #fff;
+  font-size: 16px;
+}
+
+.packagesList .packages {
+  margin: 30px 0 0;
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 5px #d6d6d6;
+  cursor: pointer;
+}
+
+.packagesList .packages {
+  background: rgb(88, 28, 135);
+  background: linear-gradient(313deg, rgba(88, 28, 135, 1) 0%, rgba(79, 69, 184, 1) 100%);
+  cursor: pointer;
+}
+
+.packagesList .packages h2,
+.packagesList .packages h3,
+.packagesList .packages p {
+  color: #fff;
+}
+
+.packagesList .packages a {
+  color: #000;
+  background-color: #fff;
+}
+
+.packagesList .packages .packageTitle h2:before {
+  background-color: #fff;
+}
+
+.packagesList .packages .packageTitle h2 {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.packagesList .packages .packageTitle h2:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.packagesList .packages .packagepara {
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+  display: inline-block;
+  line-height: 21px;
+}
+
+.packagesList .packages .packageTitle p span {
+  vertical-align: top;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.packagesList .packages h3 {
+  margin-top: 25px;
+  clear: both;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.packagesList .packages h5 {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  color: #fff;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.packagesList .packages h5 p {
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.packagesList .packages h5 span {
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.packagesList .packages button {
+  background-color: #fb753c;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.packagesList .packages button:not(:disabled) {
+  cursor: pointer;
+}
+
+.packagesList .packages button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+
+  .paymentMethodList h3,
+  h3 span {
+    font-size: 20px !important
+  }
+
+  .cardDetails label {
+    font-size: 17px !important;
+  }
+
+  .paymentMethodList,
+  .couponPackage {
+    float: none;
+    width: auto;
+    padding: 0px 20px;
+    margin: 20px 0px;
+  }
+
+  .cardDetails,
+  .cardDetailsImg {
+    float: none;
+    width: auto;
+    padding: 0px 20px;
+    margin: 0px 0px;
+  }
+
+  .cardDetailsImg img {
+    height: 25px;
+    margin: 0px 5px;
+    padding: 10px 0;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  .packagesList .packages {
+    margin: 0px 0 0;
+    padding: 0px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 5px #d6d6d6;
+    cursor: pointer;
+  }
+
+  .packagesList .packages button {
+    background-color: #fb753c;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+  }
+}

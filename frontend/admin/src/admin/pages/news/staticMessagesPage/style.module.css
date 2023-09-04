@@ -1,0 +1,496 @@
+.userLetfMenu {
+  display: none;
+}
+
+.filterForm {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto; */
+}
+.filterForm::after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+.fromGroupHead {
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  clear: both;
+}
+.homeUserNewform form .fromGroup:first-child,
+.homeUserNewform form .fromGroup:nth-child(2),
+.homeUserNewform form .fromGroup:nth-child(3),
+.homeUserNewform form .fromGroup:nth-child(4),
+.homeUserNewform form .fromGroup:nth-child(5),
+.homeUserNewform form .fromGroup:nth-child(6),
+.homeUserNewform form .fromGroup:nth-child(7) {
+  width: 25%;
+  margin: 10px 0px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  height: 60px;
+  display: inline-block;
+  cursor: pointer;
+}
+.homeUserNewform form .fromGroup label {
+  font-size: 16px;
+  color: rgba(147, 159, 173, 0.84);
+  line-height: 18px;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.homeUserNewform form .fromGroup select {
+  width: 100%;
+  height: 30px;
+  padding: 0px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.homeUserNewform form .fromGroup input[type='checkbox'] {
+  width: 13px;
+  height: 13px;
+  background: #555;
+  margin: 0px 10px 0px 0px;
+  position: relative;
+  border-radius: 5px;
+  padding: 0;
+  float: left;
+  cursor: pointer;
+}
+.homeUserNewform form .fromGroup input[type='checkbox'] + label {
+  font-size: 16px;
+  color: #000;
+  line-height: 18px;
+  display: block;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.homeUserNewMain {
+  position: relative;
+}
+
+.homeUserNewform {
+  margin-bottom: 30px;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.textMessages {
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+}
+
+.textMessages textarea {
+  width: 75%;
+  float: left;
+  border: 1px solid #e5e7eb;
+  resize: none;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px 15px;
+  overflow: auto;
+  height: 250px;
+  box-sizing: border-box;
+}
+.textMessages textarea + div {
+  float: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+}
+.textMessages textarea + div button {
+  width: 200px;
+  margin: 10px 20px 10px 0;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fe6828;
+  background-color: transparent;
+  border: 1px solid #fe6828;
+  font-weight: bold;
+}
+.textMessages textarea + div button:hover {
+  background-color: #fe6828;
+  color: #fff;
+}
+
+.loadMoreBtn {
+  background-color: #3ec243;
+  color: #fff;
+  border: none;
+  padding: 14px 20px;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto 50px;
+  display: block;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  clear: both;
+}
+
+.homeUserNewInner {
+  position: relative;
+  width: 23%;
+  float: left;
+  margin: 15px 1%;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.homeUserNewInner2 {
+  border-radius: 20px !important;
+}
+
+.homeUserNewOnline {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+
+.homeUserNewOnlineIcon {
+  background-color: #3ec243;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+.homeUserNewOfflineIcon {
+  background-color: hsl(0, 68%, 61%);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.userImage {
+  position: relative;
+}
+
+.userImage:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.userImage img {
+  max-width: 100%;
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.homeUserNewVerified {
+  background-color: #4a96f3;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 2;
+}
+
+.homeUserNewVerified img {
+  padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.homeUserNewDetails {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.homeUserNewDetails h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.homeUserNewDetails p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.row1 .rowa {
+  float: left;
+  width: 31%;
+  margin: 10px 1%;
+}
+
+.row1 .rowa .MuiInputBase-root.MuiOutlinedInput-root {
+  border-radius: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.filterForm {
+  position: relative;
+  box-shadow: 0px 0px 10px #ddd;
+  padding: 20px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.filterForm input[type='submit'] {
+  position: absolute;
+  right: 40px;
+  background-color: #3f51b5;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.greenBtn {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+  width: 84px;
+  margin: 30px auto 0;
+  display: block;
+}
+.greenBtn:hover {
+  opacity: 0.9;
+}
+.submitGreenBtn {
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.submitGreenBtn button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin: 0px 0 !important;
+  line-height: normal !important;
+}
+.submitGreenBtn button:hover {
+  opacity: 0.9;
+}
+.selectInput,
+.selectInput:focus {
+  width: 100%;
+  background-color: #fff;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+/* .selectInput label {
+  display: block;
+} */
+.tableMainNewsStatic {
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 50px 0px;
+  border-collapse: collapse;
+}
+.tableMainNewsStatic th,
+.tableMainNewsStatic td {
+  border: 1px solid #ccc;
+  border: 1px solid #ccc;
+  width: 24%;
+  padding: 7px 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.tableMainNewsStatic tbody td:last-child button {
+  background-color: #3ec243;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.selectTime {
+  padding-top: 15px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.selectTime label {
+  margin-bottom: 0;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.selectTime select {
+  width: 100%;
+  float: none;
+  border: none;
+  margin-left: 5px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .homeUserNewform {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .gridItem {
+    margin-bottom: 10px;
+  }
+
+  .homeUserNewMain1 {
+    /* display: flex;
+      flex-direction: column; */
+  }
+
+  .homeUserNewInner {
+    width: 48%;
+  }
+
+  /* .userImage {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    } */
+
+  .homeUserNewDetails {
+    text-align: center;
+  }
+
+  .homeUserNewDetails h3 {
+    font-size: 1.2rem;
+  }
+
+  .homeUserNewDetails span {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .homeUserNewform {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    width: 100%;
+  }
+
+  .gridItem {
+    margin-bottom: 0;
+  }
+
+  .userImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .loadmoreBtn {
+    grid-column: 2 / 3;
+    justify-self: center;
+  }
+  /* .filterForm {
+      padding: 0px 20px;
+    } */
+}
+@media (max-width: 485px) {
+  .homeUserNewInner {
+    width: 98%;
+  }
+}
+
+@media (max-width: 768px) {
+  .filterForm {
+    width: 100%;
+  }
+  .filterForm {
+    width: 100% !important;
+    display: block !important;
+  }
+  .homeUserNewInner {
+    width: 48%;
+  }
+  .homeUserNewform form .fromGroup:first-child,
+  .homeUserNewform form .fromGroup:nth-child(2),
+  .homeUserNewform form .fromGroup:nth-child(3),
+  .homeUserNewform form .fromGroup:nth-child(4),
+  .homeUserNewform form .fromGroup:nth-child(5),
+  .homeUserNewform form .fromGroup:nth-child(6),
+  .homeUserNewform form .fromGroup:nth-child(7),
+  .textMessages textarea {
+    width: 98% !important;
+  }
+  .textMessages textarea + div button {
+    width: auto !important;
+  }
+}
+@media (max-width: 485px) {
+  .homeUserNewInner {
+    width: 98%;
+  }
+}

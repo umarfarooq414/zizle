@@ -1,0 +1,401 @@
+.analyticsContainerRightBody {
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.statusShow span {
+  background-color: #16a34a;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  width: 12px;
+  height: 12px;
+}
+
+.profileActive {
+  background-color: #ffe4e4;
+  padding: 10px 20px;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  /* overflow: hidden;
+  overflow-x: scroll; */
+}
+
+
+.activeprofileGallery {
+  margin: 20px 0 0;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.activeprofileGallery ul {
+  white-space: nowrap;
+}
+
+.activeprofileGallery ul li {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+}
+
+.activeprofileGallery img {
+  display: inline-block;
+  max-width: 100%;
+  object-fit: cover;
+  height: 75px;
+  width: 75px;
+}
+
+.profileActive1 {
+  background-color: #fff;
+  padding: 20px 20px;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+
+.profileActiveUser img {
+  max-width: 50px;
+}
+
+.profileActiveUserDetails {
+  background-color: #fff;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  clear: both;
+  margin: 20px 0px;
+}
+
+.profileActiveUserDetails ul {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.profileActiveUserDetails ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+  padding: 4px 20px 4px;
+}
+
+.profileActiveUserDetails ul li h3 {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+}
+
+.profileActiveUserDetails ul li h3 span {
+  font-weight: 500;
+  color: #777;
+  font-size: 18px;
+}
+
+.profileActiveUserDetails ul li svg {
+  float: left;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.profileActiveUser {
+  background-color: #fff;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  margin: 20px 0px;
+  padding: 10px 20px;
+  overflow: hidden;
+  overflow-x: scroll;
+  clear: both;
+}
+
+.profileActiveLeft {
+  float: left;
+  width: 70%;
+}
+
+.profileActiveright {
+  float: left;
+  width: 30%;
+}
+.imagePreviewCloseBtnModal {
+  position: absolute !important;
+  right: 0px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  background: transparent !important;
+}
+
+.imagePreviewCloseBtnModal img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+  margin: 2px 0px 0px 36px;
+}
+.imagePreviewCloseBtnModal img:hover {
+  border-radius: 5px;
+}
+
+.profileActiveright label {
+  background-color: #48ba16;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 2px 6px;
+  line-height: normal;
+  margin-top: 13px;
+  float: right;
+}
+
+.profileActiveLeft img {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  max-width: 100%;
+  float: left;
+  cursor: pointer;
+}
+
+.profileActiveLeft .userActiveProfile {
+  float: left;
+  padding-top: 5px;
+}
+
+.profileActiveLeft .userActiveProfile h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  position: relative;
+  top: 5px;
+}
+
+.profileActiveLeft .userActiveProfile h3 span {
+  font-weight: 600;
+}
+
+.profileActiveLeft .userActiveProfile h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+
+.profileActiveUserAdd {
+  padding: 0.5rem 1.25rem;
+  margin: 20px 0px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  clear: both;
+}
+
+.profileActiveUserAdd input,
+.profileActiveUserAdd input:focus {
+  border-bottom: 1px solid #ccc !important;
+}
+
+.profileActiveUserAdd input::placeholder,
+.profileActiveUserAdd input::-ms-input-placeholder,
+.profileActiveUserAdd input::-webkit-input-placeholder,
+.profileActiveUserAdd input::-moz-input-placeholder,
+.profileActiveUserAdd input::-o-input-placeholder,
+.formModratorGroup input::placeholder,
+.formModratorGroup input::-ms-input-placeholder,
+.formModratorGroup input::-webkit-input-placeholder,
+.formModratorGroup input::-moz-input-placeholder,
+.formModratorGroup input::-o-input-placeholder {
+  color: #000 !important;
+  font-size: 12px;
+}
+
+.formModratorGroup textarea,
+.formModratorGroup textarea:focus {
+  width: 100%;
+  border: none;
+  outline-width: 1px;
+  outline-color: #ccc;
+  outline-style: solid;
+  height: 200px;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 13px;
+  resize: none;
+}
+
+.formModratorGroup button {
+  background-color: #ff762b;
+  border: none;
+  color: #fff;
+  width: 100%;
+  margin-top: 15px;
+  padding: 13px 20px;
+  border-radius: 5px;
+}
+
+.formModratorGroup button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 146, 65, 1) 0%,
+    #fa5f36 50%,
+    #fb783c 75%,
+    rgba(249, 44, 44, 1) 100%
+  );
+}
+
+.profileActiveUserModerator {
+}
+
+.avtiveModerator {
+}
+
+.profileActive1 .profileActiveLeft {
+  padding: 0.5rem 1.25rem;
+  margin: 0px 0px;
+  background-color: #fff;
+  border: 1px solid rgb(50 50 93 / 7%);
+  box-shadow: 10px 0px 25px 0 rgb(50 50 93 / 7%), 5px 0px 15px 0 rgb(0 0 0 / 7%);
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.avtiveModerator ul {
+  padding: 0.5rem 1.25rem;
+  margin: 0px 0px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  clear: both;
+}
+
+.avtiveModerator ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0px 20px;
+  padding: 0px 0px 5px;
+}
+
+.avtiveModerator ul li h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.avtiveModerator ul li h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.avtiveModerator button {
+  background-color: #ff762b;
+  border: none;
+  color: #fff;
+  width: 100%;
+  margin: 15px 0;
+  padding: 13px 20px;
+}
+
+.profileActiveUser {
+  background-color: #fff;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  margin: 20px 0px;
+  padding: 10px 20px;
+  overflow-x: clip;
+  overflow-y: scroll;
+  height: 250px;
+}
+
+.profileActiveMember {
+  /* width: 2000px; */
+  white-space: nowrap;
+}
+
+.imageButton {
+  /* background-color: #fff; */
+  /* box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%); */
+  margin: 0 10px;
+  display: block;
+  margin-bottom: 10px;
+  object-fit: cover;
+  position: relative;
+}
+
+.imageButton img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+}
+
+.profileActiveUser img {
+  max-width: 50px;
+  margin: 10px 7px;
+  vertical-align: middle;
+}
+
+.profileActiveUser span {
+  font-size: 14px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.customCheckbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  background-color: #fff;
+  margin-right: 8px;
+}
+
+.profileActiveUser img {
+  max-width: 50px;
+  margin: 10px 7px;
+}
+
+.countNumber {
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block;
+  line-height: normal;
+  padding: 4px 0;
+  position: absolute;
+  left: 38px;
+  font-size: 10px;
+  font-weight: 600;
+  top: 5px;
+  background-color: #ff0000;
+  color: #fff !important;
+  border-radius: 50%;
+  font-size: 10px !important;
+}
+
+@media screen and (max-width: 600px) {
+
+   .imagePreviewMod {
+    max-width: 100% !important;
+  }
+}

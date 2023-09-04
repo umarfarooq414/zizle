@@ -1,0 +1,49 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.modelMain {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  z-index: 2;
+  padding: 30px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+.modelContainer h2 {
+  margin: 20px 0px;
+  font-size: 28px;
+}
+.modelContainer p {
+  font-size: 16px;
+  color: #000;
+}
+.modelContainer a {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.modelContainer button {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 20px;
+  border-radius: 20px;
+  max-width: 200px;
+  width: 100%;
+}

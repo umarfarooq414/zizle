@@ -1,0 +1,57 @@
+.leftpart {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  box-shadow: 10px 1px 10px -5px #cbcbcb;
+  height: 100vh;
+  padding: 20px 20px 100px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 69px;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.rightpart {
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 50px;
+  margin-left: 20%;
+  top: 69px;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .leftpart {
+    float: none;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+    height: auto;
+    box-shadow: none;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ebebeb;
+    padding: 0px 20px;
+    top: 70px;
+  }
+
+  .rightpart {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
+
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .rightpart {
+    padding: 50px 20px;
+  }
+}

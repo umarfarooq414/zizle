@@ -1,0 +1,32 @@
+.userHeaderSec {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1220px;
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.UserLeftNavigation {
+  max-width: 1220px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.rightFQA {
+  width: 100%;
+  float: left;
+}
+.rightFQA p a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+@media (max-width: 786px) {
+  .rightFQA {
+    width: 90%;
+    float: left;
+    padding: 0px 20px;
+  }
+}

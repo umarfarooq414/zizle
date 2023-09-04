@@ -1,0 +1,604 @@
+.userHeaderSec {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1220px;
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.UserLeftNavigation {
+  max-width: 1220px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.clear {
+  clear: both;
+}
+
+.usernaviright {
+  float: left;
+  width: 75%;
+}
+
+.mainInner {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.innerUserDetails {
+  width: 100%;
+}
+
+.innerUserDetails1 {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  position: relative;
+  padding: 1rem;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.innerUserDetailsLeft {
+  float: left;
+  width: 38%;
+  box-sizing: border-box;
+}
+
+.innerUserDetailsLeft img {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  position: relative;
+  max-width: 100%;
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.innerUserDetailsRight {
+  float: left;
+  width: 60%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-left: 2%;
+}
+
+.giftStatus {
+  position: relative;
+}
+
+.statusShow {
+  float: left;
+  width: 60%;
+}
+
+.userNameDiv {
+  margin-top: 5px;
+}
+
+.userNameDiv img {
+  top: 15px;
+  left: 10px;
+  z-index: 2;
+  float: left;
+  position: relative;
+  padding-left: 2px;
+  width: 25px;
+}
+
+.statusShow {
+  background-color: #16a34a;
+  /* background-color: hsl(0, 68%, 61%); */
+  /* background-color: #d53f8c; */
+  font-size: 13px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  line-height: 0px;
+}
+.statusShowOff {
+  /* background-color: #16a34a; */
+  background-color: hsl(0, 68%, 61%);
+  /* background-color: #d53f8c; */
+  font-size: 13px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  line-height: 0px;
+}
+
+.giftBan {
+  float: right;
+  width: 20%;
+}
+
+.giftBan ul {
+  text-align: right;
+}
+
+.giftBan ul li {
+  display: inline-block;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.giftBan ul li button,
+.giftBan ul li button:focus {
+  border: none;
+}
+
+.innerUserDetailsRight h2 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  float: left;
+  margin-bottom: 0px;
+  width: max-content;
+  word-break: break-all;
+  width: 100%;
+}
+
+.innerUserDetailsRight h4 {
+  clear: both;
+  width: 100%;
+  display: block;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.reactbutton ul {
+  display: block;
+  margin-top: 30px;
+}
+
+.reactbutton ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.textMessages {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  width: 100%;
+}
+
+.textMessages textarea {
+  width: 72%;
+  float: left;
+  border: 1px solid #e5e7eb;
+  resize: none;
+  background-color: #e5e7eb;
+  border-radius: 15px;
+  padding: 10px 15px;
+  overflow: auto;
+  height: 130px;
+  box-sizing: border-box;
+}
+
+.textMessages button {
+  background-color: #2563eb;
+  padding: 20px 15px;
+  border-radius: 20px;
+  margin: 40px 15px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.textMessages button svg path {
+  fill: #fff;
+}
+
+.personalDetails ul {
+  text-align: center;
+}
+
+.personalDetails ul li {
+  display: inline-block;
+  margin: 25px 10px 0;
+  width: 14%;
+  background-color: transparent;
+}
+
+.personalDetails ul li h5 {
+  color: #000;
+  font-size: 12px;
+  opacity: 0.7;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.personalDetails ul li p {
+  color: #000;
+  font-size: 15px;
+}
+
+.innerUserBottom ul li {
+  display: inline-block;
+  margin: 20px 1%;
+  width: 18%;
+}
+
+.innerUserBottom ul li img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.modelGiftsSection {
+  margin: 0;
+  padding: 0;
+}
+
+.modelGiftsSection li {
+  float: left;
+  width: 23%;
+  margin: 10px 1%;
+  text-align: center;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  list-style-type: none;
+}
+
+.modelGiftsSection li img {
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+}
+
+.modelGiftsSection li h4 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 0 0px;
+}
+
+.modelGiftsSection li h2 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 0;
+}
+
+.modelGiftsSection li:hover {
+  border: 1px solid #e74d25;
+  border-radius: 7px;
+}
+
+.modelGiftsSection li:hover h2 {
+  color: #e74d25;
+}
+
+.homeUserNewVerified {
+  /* background-color: #4a96f3; */
+  /* border-radius: 50px; */
+  /* width: 20px;
+  height: 20px; */
+  font-size: 14px;
+  color: #fff;
+  top: 20px;
+  left: 0;
+  z-index: 2;
+  float: left;
+  position: relative;
+  margin-left: 15px;
+  margin-top: -3px;
+}
+
+.homeUserNewVerified img {
+  /* padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto; */
+  width: 20px !important;
+}
+
+.reactbutton {
+  display: inline-block;
+  width: 100%;
+}
+
+.smileicons {
+  background: #fff;
+  position: absolute;
+  padding: 2px 20px;
+  box-shadow: 0px 0px 6px #d7d7d7;
+  border-radius: 21px;
+  margin-top: 5px;
+}
+
+.smileicons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.smileicons button img {
+  width: 50px;
+}
+
+.popup {
+  background-color: #d3414194;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .innerUserBottom ul li {
+    display: inline-block;
+    margin: 20px 1%;
+    width: 48%;
+  }
+
+  .modelGiftsSection li h2 {
+    text-align: center;
+    float: none;
+    width: auto;
+  }
+
+  .modelGiftsSection {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .modelGiftsSection li {
+    float: left;
+    width: 48%;
+    margin: 10px 1%;
+    text-align: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    list-style-type: none;
+  }
+
+  .userNameDiv img {
+    color: #fff;
+    /* top: 39px; */
+    /* left: 50px; */
+    z-index: 2;
+    float: left;
+    position: relative;
+    /* margin-left: 15px; */
+    margin-top: -3px;
+  }
+
+  .innerUserDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+
+  .innerUserDetailsLeft {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .innerUserDetails1 {
+    width: 95%;
+  }
+
+  .innerUserDetailsLeft {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .innerUserDetailsRight {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .giftBan {
+    display: flex;
+    width: 32%;
+    position: inherit;
+    top: -72px;
+  }
+
+  .giftStatus {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homeUserNewVerified {
+    margin-top: 10px;
+  }
+
+  .personalDetails {
+    margin-top: 20px;
+  }
+
+  .personalDetails ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .personalDetails li {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  .textMessages {
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .textMessages button {
+    margin-top: 10px;
+  }
+
+  .userHeaderSec {
+    justify-content: center;
+  }
+
+  .reactbutton ul {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .personalDetails ul li {
+    display: inline-block;
+    margin: 25px 10px 0;
+    width: auto;
+    height: 100px;
+  }
+
+  .modelGiftsSection li {
+    float: left;
+    width: 40%;
+    margin: 10px 5%;
+    text-align: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    list-style-type: none;
+  }
+
+  .innerUserDetailsLeft img {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    position: relative;
+    max-width: 80%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .innerUserDetails1 {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    position: relative;
+    /* padding: 1rem; */
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: -20px;
+  }
+
+  /* .innerUserDetails {
+
+  } */
+}
+
+.usreDetails {
+  color: #000;
+  font-size: 15px;
+  font-weight: bolder !important;
+}
+
+.closeBtnModal {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.closeBtnModal:hover {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+}
+
+.closeBtnModal img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+.closeBtnModal img:hover {
+  border-radius: 5px;
+}
+
+.imagePreviewCloseBtnModal {
+  position: absolute !important;
+  right: 18px !important;
+  top: 18px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.imagePreviewCloseBtnModal img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+.imagePreviewCloseBtnModal img:hover {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* *****************Mobile version********************* */
+@media (max-width: 485px) {
+  .statusShow {
+    float: none;
+    width: auto;
+  }
+
+  .userNameDiv {
+    text-align: center;
+  }
+
+  .userNameDiv h2,
+  .userNameDiv img {
+    float: none;
+    display: inline-block;
+  }
+
+  .userNameDiv img {
+    top: 3px;
+  }
+}
+
+/* *****************Mobile version********************* */

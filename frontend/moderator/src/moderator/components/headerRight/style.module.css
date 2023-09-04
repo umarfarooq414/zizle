@@ -1,0 +1,375 @@
+.clear {
+  clear: both;
+}
+.HeaderRight1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.unseenMessagesCount {
+  position: absolute;
+  /* left: 30px; */
+  right: 2px;
+  background-color: #fa4b33;
+  color: #fff;
+  font-weight: bolder;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  line-height: 18px;
+  border: 1px solid;
+  margin-top: 2px;
+}
+
+.headerTogglePanel {
+  position: relative;
+  margin: 0px;
+}
+
+.headerTogglePanel li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+  border-right: 2px solid #f15738;
+  padding: 0px 10px 0px 0px;
+  margin: 0px 5px;
+}
+.headerTogglePanel li:last-child {
+  border-right: none;
+}
+
+.headerTogglePanel li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4b5563;
+  font-weight: 600;
+  line-height: normal;
+}
+.headerTogglePanel li a:hover {
+  color: #ee4837;
+}
+
+.headerSelection {
+  position: relative;
+}
+
+.headerSelectImg {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.headerSelectImg img {
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.headerSelectImg span {
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.headerSelectdropdown {
+  background-color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  box-shadow: 1px 2px 4px #b1b1b1;
+  width: 175px;
+  margin-top: 10px;
+  z-index: 99;
+}
+
+.headerSelectdropdown ul {
+  margin: 0;
+  padding: 0;
+}
+
+.headerSelectdropdown li {
+  list-style: none;
+  line-height: 26px;
+  margin-bottom: 3px;
+  padding-bottom: 2px;
+  text-align: left;
+}
+.headerSelectdropdown ul li:hover {
+  color: #a64bf4 !important;
+}
+.headerSelectdropdown ul li button:hover {
+  color: #ee4837 !important;
+  background: none !important;
+}
+
+.headerSelectdropdown a,
+.headerSelectdropdown button {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.headerSelectdropdown a:hover,
+.headerSelectdropdown button:hover {
+  /* opacity: 0.7; */
+  color: #ee4837;
+}
+.showMessagesHeader {
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.showMessagesHeader,
+.showMessagesHeader li {
+  position: relative;
+}
+
+.showMessagesHeader li {
+  cursor: pointer;
+}
+
+.showMessagesHeader li svg,
+.showMessagesHeader li svg path {
+  color: #4b5563;
+  fill: #4b5563;
+  font-size: 24px;
+}
+
+.comentsDropdownSec {
+  position: absolute;
+  background-color: #fff;
+  width: 250px;
+  right: 0;
+  padding: 0px 0px;
+  box-shadow: 0px 0px 6px #777;
+  top: 100%;
+  z-index: 99;
+}
+
+.countNumber {
+  position: absolute;
+  top: -23px;
+  left: 10px;
+  right: 0;
+  background-color: #fa4b33;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 25px;
+  z-index: 1;
+}
+
+/* @keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+} */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.countNumber {
+  animation: blink 2s linear infinite;
+}
+
+/* .profileActive {
+  background-color: #ffe4e4;
+  padding: 7px 10px;
+  box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 2px 0px 2px;
+} */
+
+/* .profileActiveLeft {
+  float: none;
+  width: 100%;
+}
+
+.profileActiveLeft img {
+  max-width: 25px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px;
+  position: relative;
+  height: 25px;
+}
+
+.profileActiveLeft .userActiveProfile {
+  float: left;
+  padding-top: 5px;
+}
+
+.profileActiveLeft .userActiveProfile h3 {
+  margin: -28px 0px 0px 32px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+  position: relative;
+  top: 0px;
+}
+
+.profileActiveLeft .userActiveProfile h3 span {
+  font-weight: 600;
+}
+
+.profileActiveLeft .userActiveProfile h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+} */
+
+@media screen and (max-width: 786px) {
+  .headerTogglePanel {
+    display: none;
+  }
+}
+
+.notificationContainer {
+  cursor: default;
+  position: absolute;
+  z-index: 999;
+  top: 100%;
+  right: 0rem;
+  width: 400px;
+  font-weight: 300;
+  background: white;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+  animation-name: style_dropPanel__pWjKR;
+  animation-iteration-count: 1;
+  animation-timing-function: all;
+  animation-duration: 0.75s;
+  overflow-y: scroll;
+}
+.notificationContainer:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 0;
+  height: 0;
+  transform: translate(-1rem, -100%);
+  border-left: 0.75rem solid transparent;
+  border-right: 0.75rem solid transparent;
+  border-bottom: 0.75rem solid white;
+}
+.notificationContainer1 h3 span {
+  text-transform: uppercase;
+  font-size: 75%;
+  font-weight: 700;
+  color: #84929f;
+  padding: 1.5rem 2rem;
+}
+.notificationContainer1 img {
+  width: 24px;
+  max-width: 100%;
+}
+
+.selectedHeading {
+  color: #fff;
+}
+.unSelectedHeading {
+  color: #fff;
+}
+.selectedContainer {
+  background-color: rgb(37, 99, 235);
+  border-radius: 10px;
+}
+
+.unSeenMsg {
+  background-color: #db2777;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.notificationContainer h4 {
+  color: #b5c4d2;
+  font-size: 90%;
+  /* @vertical-align (50%); */
+  position: relative;
+  margin: 10px 10px;
+}
+.notificationContainer i.right {
+  right: 2rem;
+}
+.notificationContainer i.right:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.notificationContainer a {
+  display: flex;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.notificationContainer a .notificationContainer1 {
+  padding-right: 10px;
+}
+
+@keyframes dropPanel {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px) scaleY(0.5);
+  }
+}
+.notification {
+  box-sizing: border-box;
+}
+.notification.new {
+  background: #f3f9fd;
+}
+@media screen and (max-width: 560px) {
+  .notificationContainer {
+    width: 275px;
+    right: -80px;
+    margin: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 360px) {
+  .headerSelectImg span {
+    display: none;
+  }
+}

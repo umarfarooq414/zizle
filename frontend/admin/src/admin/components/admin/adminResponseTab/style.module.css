@@ -1,0 +1,30 @@
+.leftpart {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  box-shadow: 10px 1px 10px -5px #cbcbcb;
+  height: 100vh;
+  padding: 20px;
+
+  height: 100%;
+  float: left;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 69px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.rightpart {
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 50px;
+  margin-left: 20%;
+  top: 69px;
+  position: relative;
+}
+.clear {
+  clear: both;
+}

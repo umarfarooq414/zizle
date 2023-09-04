@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7ff;
+  /* overflow: hidden; */
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f7f7ff;
+    overflow: auto;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body.hiddenScroll {
+  overflow: hidden !important;
+}
+
+button {
+  background: linear-gradient(
+    90deg,
+    rgba(249, 44, 44, 1) 0%,
+    #fa5f36 50%,
+    #fb783c 75%,
+    rgba(252, 146, 65, 1) 100%
+  );
+}
+
+.css-w4z10b-MuiStack-root > :not(style) + :not(style) {
+  margin-top: 11px !important;
+}
+
+.dark-mode {
+  background-color: #0f0f0f;
+  color: #f7f7ff;
+}
+
+.dark-mode td,
+.dark-mode ::placeholder {
+  color: #f7f7ff !important;
+}
+
+.dark-mode label {
+  color: #71767c !important;
+}
+
+.dark-mode p {
+  color: #f7f7ff !important;
+}
+
+.dark-mode a,
+.dark-mode span {
+  color: #f7f7ff;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: #f7f7ff !important;
+}
+
+
+.dark-mode p {
+  color: #6f6f6f;
+}
+
+/* .dark-mode li {
+  background-color: #0f0f0f;
+} */
+
+.list-item {
+  color: #3f51b5;
+  /* Default color for light theme */
+}
+
+.list-item-selected {
+  color: #3f51b5;
+  /* Default color for light theme */
+}
+
+@media (prefers-color-scheme: dark) {
+  .list-item,
+  .list-item-selected {
+    color: #f50057;
+    /* Color for dark theme */
+  }
+}
+
+body.dark-mode {
+  background-color: #0f0f0f;
+}
+body.dark-mode select {
+  background-color: #1a1a1a;
+}
+body.dark-mode input[type='date']::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+

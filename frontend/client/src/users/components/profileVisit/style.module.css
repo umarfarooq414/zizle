@@ -1,0 +1,227 @@
+.ProfileVisitmain {
+  float: left;
+  width: 100%;
+}
+
+.ProfileVisitInner {
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+  width: 23%;
+  float: left;
+  margin: 15px 1%;
+  border-radius: 20px;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ProfileVisitInner:hover .lockImage {
+  /* background-color: #db2777; */
+  background-color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+
+.ProfileVisitInner:hover .unlockbtn {
+  background-color: #db2777;
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+
+.ProfileVisitInner img {
+  object-fit: cover;
+  object-position: center;
+  text-align: center;
+  display: block;
+  max-width: 100%;
+  height: 275px;
+  width: 100%;
+}
+
+.imageMain {
+  position: relative;
+}
+
+.imageMain:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.locakProfileContent {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.locakProfileContent button {
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 9999px;
+  margin-top: 10px;
+  transition: 0.4s all ease-in-out;
+}
+
+.ProfileVisitInner p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0 0;
+  line-height: normal;
+}
+
+.clear {
+  clear: both;
+}
+
+.ProfileVisitInner .ProfileLock {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  padding: 19px;
+}
+
+.ProfileVisitMessage {
+  text-align: center;
+}
+
+.unlockbtn {
+  padding: 7px 25px;
+  border: none;
+  background: transparent;
+  color: #000;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lockImage {
+  height: 70px;
+  width: 70px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: auto;
+  transition: 0.4s all ease-in-out;
+}
+
+.lockImage img {
+  width: 35px;
+  object-fit: contain;
+  height: auto;
+  padding: 17px 0px;
+  text-align: center;
+  margin: auto;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(24deg) brightness(104%) contrast(102%);
+  transition: 0.4s all ease-in-out;
+}
+
+.ProfileVisitInner:hover .lockImage img {
+  filter: invert(23%) sepia(81%) saturate(2299%) hue-rotate(312deg) brightness(95%) contrast(94%);
+  transition: 0.4s all ease-in-out;
+}
+
+.unlockbtn img path {
+  fill: #fff;
+}
+
+.ProfileVisitMessage img {
+  width: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .ProfileVisitInner {
+    width: 48%;
+  }
+}
+
+@media (max-width: 786px) {
+  .ProfileVisitInner p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px 0 0;
+  }
+
+  .unlockbtn {
+    padding: 7px 25px;
+    border: none;
+    background: transparent;
+    color: #000;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .ProfileVisitInner {
+    width: 46%;
+  }
+
+  .ProfileVisitUpperDiv {
+    background: linear-gradient(90deg, rgba(79, 69, 184, 1) 0%, rgba(88, 28, 135, 1) 100%);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+    width: 82%;
+  }
+}
+
+@media (max-width: 485px) {
+  .ProfileVisitInner {
+    width: 93%;
+  }
+}
+
+.homeUserNewDetails {
+  position: absolute;
+  padding: 0px 20px;
+  top: 35%;
+  text-align: left;
+}
+
+.homeUserNewDetails h3 {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.ProfileVisitUpperDiv {
+  background: linear-gradient(90deg, rgba(79, 69, 184, 1) 0%, rgba(88, 28, 135, 1) 100%);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.ProfileVisitUpperDiv h3 {
+  font-size: 20px;
+  color: #fff;
+  margin: 0px 0px 1rem;
+  font-weight: 500;
+}
+
+.ProfileVisitUpperDiv p {
+  font-size: 14px;
+  color: #fff;
+  margin: 0px 0px 1rem;
+}
+
+.ProfileVisitUpperDiv button {
+  background-color: rgba(255, 112, 72, 1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  width: 10rem;
+  border: none;
+  border-radius: 1.5rem;
+  color: #fff;
+}

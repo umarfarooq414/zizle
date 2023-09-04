@@ -1,0 +1,43 @@
+.formGroup {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.formGroup input[type='text'],
+.formGroup input[type='date'],
+.formGroup input[type='text']:focus,
+.formGroup input[type='date']:focus {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+.fromGroup label {
+  display: block;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+
+.fromGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px !important;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: normal !important;
+  cursor: pointer;
+}
+
+.fromGroup button:hover {
+  opacity: 0.9;
+  background-color: #d65610;
+}

@@ -1,0 +1,131 @@
+.recipients {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.tile {
+  padding: 40px 20px;
+  flex: 1;
+  width: 33%;
+  border: 1px solid #f4f2f2;
+  box-shadow: 0 10px 25px 0 rgba(50, 50, 93, 0.07), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  height: 127px;
+  margin: 7px 0px;
+}
+
+.tileTitle {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.tileNumber {
+  font-size: 20px;
+  size: 20px;
+  color: black;
+}
+
+.icon {
+  text-align: end;
+  margin-top: 9px;
+}
+
+.iconImage {
+  vertical-align: middle;
+  border-style: none;
+  width: 30px;
+  height: 30px;
+}
+
+.card {
+  position: relative;
+  box-shadow: 0 10px 25px 0 rgba(50, 50, 93, 0.07), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  padding: 20px 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #f4f2f2;
+  box-shadow: 0 10px 25px 0 rgba(50, 50, 93, 0.07), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  clear: both;
+}
+
+.tableMainNewsStatic {
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 2px 0px;
+  border-collapse: collapse;
+}
+
+.tableMainNewsStatic th {
+  width: 17.6667%;
+  padding: 2px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  border-bottom: 1px solid #e3d7d7;
+  word-break: break-all;
+}
+
+.tableMainNewsStatic td {
+  width: 17.6667%;
+  padding: 19px 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #e3d7d7;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 768px) {
+  .recipients {
+    display: block;
+    width: 100%;
+  }
+
+  .tile {
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+  }
+
+  .mobileView {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 1600px !important;
+  }
+
+  /* .table td {
+    word-break: break-all;
+  } */
+
+  table {
+    display: table;
+  }
+
+  .tableMainNewsStatic td {
+    width: 17.6667%;
+    padding: 19px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #e3d7d7;
+  }
+
+  .tableMainNewsStatic th {
+    width: 17.6667%;
+    padding: 2px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    border-bottom: 1px solid #e3d7d7;
+  }
+
+  th {
+    display: table-cell;
+  }
+}

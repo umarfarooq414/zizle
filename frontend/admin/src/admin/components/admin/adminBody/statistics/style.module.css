@@ -1,0 +1,77 @@
+.allFakeUser tr th {
+  font-weight: 500;
+  width: 10%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+.allFakeUser tr td {
+  width: 10%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+.allFakeUser tr td button {
+  display: inline-block;
+  padding: 0;
+  margin: 0 7%;
+  width: auto;
+  min-width: auto;
+}
+
+.allFakeUser tr td img {
+  width: 75px;
+  margin: auto;
+  display: block;
+}
+
+.createFakeUser form {
+  margin-top: 30px;
+}
+
+.fromGroup label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.fromGroupHalf {
+  float: left;
+  width: 48%;
+  margin: 0px 1% 20px;
+}
+
+.fromGroupFull {
+  margin: 0px 1% 20px;
+}
+
+.fromGroupFull input[type='text'],
+.fromGroupFull input[type='email'],
+.fromGroupFull input[type='password'],
+.fromGroupFull input[type='text']:focus,
+.fromGroupFull input[type='email']:focus,
+.fromGroupFull input[type='password']:focus {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px 10px;
+  outline-color: #ccc;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+  scroll-behavior: smooth;
+}
+
+.fromGroup button {
+  text-align: center;
+  margin: 30px auto 30px;
+  width: 150px;
+  display: block;
+  position: relative;
+  top: 13px;
+  padding: 14px 20px;
+  background-color: #fd612e;
+  color: #fff;
+  border-radius: 30px;
+}

@@ -1,0 +1,21 @@
+.mainHeader {
+  position: relative;
+  /* background: rgb(255,118,25);
+      background: linear-gradient(0deg, rgba(255,118,25,1) 0%, rgba(255,137,98,1) 100%); */
+  padding: 10px 0px;
+  background: rgb(255, 118, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 118, 25, 0.7) 0%,
+    rgba(255, 127, 73, 0.7) 50%,
+    rgba(255, 137, 98, 0.7) 100%
+  );
+}
+.wrapwidth {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}

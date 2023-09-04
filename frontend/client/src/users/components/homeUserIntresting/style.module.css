@@ -1,0 +1,396 @@
+@media (max-width: 768px) {
+  /* .gridItem {
+    display: none;
+  } */
+
+  .gridItem1 {
+    margin-bottom: 0px;
+  }
+
+  .filterForm {
+    width: 100%;
+  }
+
+  .filterForm {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .homeUserNewInner {
+    width: 48%;
+  }
+}
+
+.filterFormDark {
+  background-color: #222222 !important;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+@media (max-width: 485px) {
+  .homeUserNewInner {
+    width: 98%;
+  }
+}
+
+.userLetfMenu {
+  display: none;
+}
+
+.filterForm {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;*/
+}
+
+.homeUserNewMain {
+  position: relative;
+}
+
+.homeUserNewform {
+  margin-bottom: 10px;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.loadMoreBtn {
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto 50px;
+  display: block;
+  position: relative;
+  top: 20px;
+  clear: both;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.loadMoreBtn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(252, 146, 65, 1) 0%,
+    #fa5f36 50%,
+    #fb783c 75%,
+    rgba(249, 44, 44, 1) 100%
+  );
+}
+
+.homeUserNewInner {
+  position: relative;
+  width: 23%;
+  float: left;
+  margin: 10px 1%;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.homeUserNewInner2 {
+  border-radius: 20px !important;
+}
+
+.homeUserNewOnline {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+
+.homeUserNewOnlineIcon {
+  background-color: #3ec243;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.homeUserNewOfflineIcon {
+  background-color: hsl(0, 68%, 61%);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.userImage {
+  position: relative;
+}
+
+.userImage:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.userImage img {
+  max-width: 100%;
+  height: 275px;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* .homeUserNewVerified {
+  background-color: #4a96f3;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 2;
+}
+
+.homeUserNewVerified img {
+  padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+ */
+
+.homeUserNewVerified {
+  /* background-color: #4a96f3; */
+  /* border-radius: 50px; */
+  /* width: 20px;
+  height: 20px; */
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.homeUserNewVerified img {
+  /* padding: 7px 0px;
+  width: 6px;
+  text-align: center;
+  display: block;
+  margin: auto; */
+  width: 20px !important;
+}
+
+.homeUserNewDetails {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.homeUserNewDetails h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+  word-break: break-all;
+}
+
+.homeUserNewDetails span {
+  color: #fff;
+}
+
+.row1 .rowa {
+  float: left;
+  width: 31%;
+  margin: 10px 1%;
+}
+
+.row1 .rowa .MuiInputBase-root.MuiOutlinedInput-root {
+  border-radius: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.filterForm {
+  position: relative;
+  /* box-shadow: 0px 0px 10px #ddd; */
+  padding: 10px 20px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.filterForm input[type='submit'] {
+  position: absolute;
+  right: 40px;
+  background-color: #3f51b5;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 10px;
+  /* color: #fff; */
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .trailpkge h3,
+  p {
+    font-size: 15px !important;
+  }
+
+  .genderFilterButtonWrapper {
+    display: flex;
+  }
+
+  .advanceSearchButton {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .advanceSearchButtonText {
+    text-decoration: underline;
+    color: #ababab;
+  }
+
+  .homeUserNewform {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .grid p {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    text-align: left;
+    line-height: 17px;
+    font-size: 15px !important;
+  }
+
+  .gridItem {
+    margin-bottom: 10px;
+  }
+
+  .gridItem .textfield {
+    border-radius: 10px;
+  }
+
+  .homeUserNewMain1 {
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .homeUserNewInner {
+    width: 48%;
+  }
+
+  /* .userImage {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  } */
+
+  .homeUserNewDetails {
+    text-align: center;
+  }
+
+  .homeUserNewDetails h3 {
+    font-size: 1.2rem;
+  }
+
+  .homeUserNewDetails span {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .homeUserNewform {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+  }
+
+  .gridItem {
+    margin-bottom: 0;
+  }
+
+  .userImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .loadmoreBtn {
+    grid-column: 2 / 3;
+    justify-self: center;
+  }
+
+  /* .filterForm {
+    padding: 0px 20px;
+  } */
+}
+
+@media (max-width: 485px) {
+  .homeUserNewInner {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gridItem {
+    margin-right: 10px;
+  }
+
+  .grid p {
+    max-width: 79px;
+  }
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 50px !important;
+}
+
+.lightSwitchStyle {
+  color: '#ffffff';
+}
+
+.darkSwitchStyle {
+  color: '#000000';
+}
+
+.makeStyles-root-3 {
+  background-color: transparent !important;
+  background: transparent !important;
+}

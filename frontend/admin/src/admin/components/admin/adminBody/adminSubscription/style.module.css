@@ -1,0 +1,170 @@
+.closeBtnModal {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.closeBtnModal:hover {
+  position: absolute !important;
+  right: 10px !important;
+  top: 15px !important;
+}
+
+.closeBtnModal img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+}
+.closeBtnModal img:hover {
+  border-radius: 5px;
+}
+
+.allSubscription tr th,
+.allSubscription tr td {
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.allSubscription tr td button {
+  display: inline-block;
+  padding: 0;
+  margin: 0 7%;
+  width: auto;
+  min-width: auto;
+}
+
+.allSubscription tr td img {
+  width: 75px;
+  margin: auto;
+  display: block;
+}
+
+.fromGroup {
+  margin-bottom: 20px;
+}
+
+.fromGroup label {
+  font-size: 14px;
+  display: table;
+  margin-bottom: 5px;
+}
+
+.fromGroup input[type='text'],
+.fromGroup input[type='text']:focus {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  height: 50px;
+  padding: 10px 10px;
+  /* border: 1px solid #c7c7c7; */
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-style: solid;
+  outline-color: #c7c7c7;
+  border-radius: 10px;
+}
+
+.fromGroup button {
+  background-color: #fe6828;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toggle_switch {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 16px;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+
+.toggle_switch:before,
+.toggle_switch:after {
+  content: '';
+}
+
+.toggle_switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+
+.toggle:hover .toggle_switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.toggle_checkbox:checked + .toggle_switch {
+  background: #56c080;
+}
+
+.toggle_checkbox:checked + .toggle_switch:before {
+  left: 30px;
+}
+
+.toggle_checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.toggle_label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
+/* *************Mobile View*************** */
+@media screen and (max-width: 768px) {
+  .mobileView {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 1500px;
+  }
+
+  .table td {
+    word-break: break-all;
+  }
+  .allSubscription tr td button {
+    display: block;
+    margin: 5px auto;
+  }
+}
+
+/* *************Mobile View*************** */

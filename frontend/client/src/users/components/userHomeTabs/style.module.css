@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .homeNewUsersTabs {
+    padding: 0px 20px;
+  }
+}
+
+.dashboard_tabs > div {
+  background-color: #333 !important;
+}
+
+.dashboard_tabs > div:nth-child(2) > div {
+  background-color: #ddd !important;
+}
+.btnLoginMain span {
+  color: #fff !important;
+  padding: 2px 20px;
+}
+.btnLoginMain:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(252, 146, 65, 1) 0%,
+    #fa5f36 50%,
+    #fb783c 75%,
+    rgba(249, 44, 44, 1) 100%
+  );
+}
+
